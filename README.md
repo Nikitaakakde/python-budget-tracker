@@ -1,50 +1,51 @@
+# Python Budget Tracker
+
+A simple command-line budget tracker built with Python that stores data in a CSV file. Ideal for beginners looking to practice file handling, user input, and basic data processing in Python.
+
 ## Project Description
 
-The Python Budget Tracker is a command-line based financial tracking tool designed to help users manage their income and expenses using a simple CSV-based system. This application is ideal for beginners learning Python, and for anyone who wants a lightweight personal finance tracker without the complexity of databases or external libraries.
+The Python Budget Tracker is a lightweight, terminal-based application designed to help users manage their personal finances. It enables users to add income and expense transactions, view their current balance, and list all previous transactions. The data is stored persistently in a CSV file, allowing users to track and review their financial activity across sessions.
 
-### Key Highlights:
+This project is especially suitable for Python learners who want hands-on experience with fundamental concepts such as file I/O, data structures, and input validation. The codebase is simple and easy to extend, making it a great starting point for building more advanced personal finance tools.
 
-1. **CSV-Based Data Storage**  
-   - All transactions are stored in a standard `transactions.csv` file.  
-   - Data persists across sessions and can be easily opened or modified using any spreadsheet software.
+## Key Features
 
-2. **Add Income and Expense Transactions**  
-   - Users can record multiple income or expense entries.  
-   - Each entry requires a description and an amount.  
-   - Expense amounts are stored as negative values to simplify balance calculation.
+### 1. CSV-Based Data Storage
+- Uses a standard `transactions.csv` file to store all transactions.
+- Compatible with spreadsheet software for easy manual editing or review.
 
-3. **View Real-Time Balance**  
-   - The total balance is calculated dynamically by summing all recorded transactions.  
-   - Helps users quickly understand their current financial position.
+### 2. Add Income and Expenses
+- Users can add transactions by providing a description and amount.
+- Expense amounts are recorded as negative values for accurate balance tracking.
 
-4. **Transaction History**  
-   - Displays all recorded income and expense entries in a readable format.  
-   - Useful for tracking spending patterns or reviewing past inputs.
+### 3. Real-Time Balance Calculation
+- Automatically calculates the current balance based on all entries.
+- Provides a quick overview of the user's financial status.
 
-5. **User-Friendly Command Line Interface (CLI)**  
-   - Clear menu-driven options for interacting with the application.  
-   - Validations are in place to handle incorrect inputs and ensure proper data entry.
+### 4. Transaction History
+- Lists all past income and expense records.
+- Displays transaction type, description, and amount in a structured format.
 
-6. **Cross-Platform Compatibility**  
-   - Can be executed on any machine with Python 3.x installed.  
-   - Fully functional in cloud environments like Google Colab with minor adjustments to file paths.
+### 5. User-Friendly Command-Line Interface
+- Simple menu-driven interface for easy navigation.
+- Input validations to ensure correct data entry.
 
-7. **Beginner-Friendly Python Concepts Covered**  
-   - File input/output with CSV  
-   - Reading and writing dictionaries  
-   - Loops, conditionals, and input validation  
-   - Modular function-based code structure  
-   - Basic arithmetic and string formatting
+### 6. Beginner-Friendly Python Concepts
+- File reading/writing using the `csv` module.
+- Dictionaries and lists for structured data handling.
+- Functions for modular and readable code.
+- Input handling and basic error checking.
 
-8. **Lightweight and Dependency-Free**  
-   - No external libraries required—uses only built-in Python modules (`csv` and `os`).  
-   - Simple enough to be used as a starter project in Python learning programs.
+### 7. Cross-Platform and Colab-Compatible
+- Runs on any system with Python 3 installed.
+- Also works in Google Colab with minor file path adjustments.
 
-9. **Expandable for Advanced Features**  
-   - Can be extended to support categories (e.g., Food, Rent, Travel).  
-   - Future enhancements can include date filters, monthly summaries, pie charts, or integration with a GUI framework like Tkinter or a web framework like Flask.
+### 8. Expandable for Advanced Use Cases
+- Can be extended to include categories, dates, monthly summaries, or data visualizations.
+- Flexible architecture allows easy migration to a GUI or web-based version.
 
-10. **Use Cases**  
-    - Personal finance tracking for students and individuals.  
-    - Educational tool for Python practice.  
-    - Prototype for building more advanced finance applications.
+## Use Cases
+
+- Personal finance tracking for individuals and students.
+- Practice project for Python learners.
+- Prototype for building more advanced financial management tools.
